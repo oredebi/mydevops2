@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("oredebi/devops2")
+        app = docker.build("iwalewa/devops2")
     }
 
     stage('Test image') {
